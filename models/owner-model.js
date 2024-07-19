@@ -1,4 +1,4 @@
-
+const mongoose = require("mongoose")
 const ownerschema= mongoose.Schema({
   fullname:String,
   email:String,
