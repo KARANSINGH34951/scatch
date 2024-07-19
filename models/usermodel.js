@@ -1,4 +1,4 @@
-
+const mongoose = require("mongoose")
 //   fullname - string
 //   email- string
 //   password- string
@@ -17,8 +17,7 @@ const userschema= mongoose.Schema({
     type:Array,
     default:[]
   },
-  isadmin:Boolean,
-  orders:{
+    orders:{
     type:Array,
     default:[]
   },
